@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: #F2DD6E;
+    margin: 0;
+}
+
+.logo {
+    width: 255px;
+}
+.restImg {
+    width: 390px;
+    height: 390px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+button, .button {
+    border: none;
+    color: white;
+    background: #477999;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button:hover, .button:hover {
+    background: #477999;
+    background: #b4e1ff;
+    color: black;
+}
+
+
+/* Restaurant Input  */
+.whole {
+    width: 650px;
+    padding: 20px;
+    margin: auto;
+}
+
+#city {
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+#priceSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.priceHeader {
+    margin-top: 25px;
+}
+
+.radioLabel {
+    margin: 10px;
+}
+
+.radioLabel > input {
+    display: none;
+}
+
+.radioButtons {
+    cursor: pointer;
+    background: #A41629;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+input:checked + .radioButtons {
+    color: white;
+    background: #FF7039;
+}
+
+.radioInputAll {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.radioButtons:hover {
+    background: #FF7039;
+}
+
+.categoryHeader {
+    margin-top: 20px;
+}
+
+.foodType {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categoryButtons {
+    width: 120px;
+}
+
+.randomButtons {
+    cursor: pointer;
+    background: #A41629;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+input:checked + .randomButtons {
+    color: white;
+    background: #FF7039;
+}
+
+/* Restaurant Given */
+.restaurantHeader {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.restaurantName {
+    font-size: 25px;
+    margin-top: 0px;
+    color: #A41629;
+}
+
+.rating {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.ratingNum {
+    margin: 0;
+}
+
+.starRating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-star, .fa-star-half-stroke {
+    padding: 2px;
+    font-size: 25px;
+    color: #A41629;
+}
+
+.addressHeader {
+    margin-bottom: 5px;
+}
+.restaurantLocation {
+    margin: 0px;
+    color: #A41629;
+    font-size: 20px;
+}
+
+.restaurantNumber {
+    color: #A41629;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.startOver {
+    color: white;
+    text-decoration: none;
+}

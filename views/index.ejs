@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/style.css" rel="stylesheet">  
+    <link rel="icon" type="image/x-icon" href="/images/rest6.png">
+    <title>Restaurant Roulette</title>
+</head>
+<body>
+<section class="whole">
+    <img class="logo" src="/images/rest6.png" alt="Restaurant Roulette">
+<form id="myForm" action="/selection" method="GET">
+    <h3>City</h3>
+    <input id="city" type="text" name="cityInput" placeholder="los angeles" required>
+
+    <h3 class="priceHeader">Price</h3>
+    <section id="priceSection">
+        <label class="radioLabel">
+            <input id="price" type="radio" value=1 name="price" required oninvalid="alert('You must fill out the form!');">
+            <div class="radioButtons">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+            </div>
+        </label>
+
+        <label class="radioLabel">
+            <input id="price" type="radio" value=2 name="price">
+            <div class="radioButtons">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+            </div>
+        </label>
+
+        <label class="radioLabel">
+            <input id="price" type="radio" value=3 name="price">
+            <div class="radioButtons">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+            </div>
+        </label>
+
+        <label class="radioLabel">
+            <input id="price" type="radio" value=4 name="price">
+            <div class="radioButtons">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+            </div>
+        </label>
+        
+        <label class="radioLabel">
+            <input id="price" type="radio" value=1,2,3,4 name="price">
+            <div class="radioButtons">
+            <p class="radioInputAll">All</p>
+            </div>
+        </label>
+    </section>
+
+    <h3 class="categoryHeader">Categories</h3>
+    <section class="foodType">
+    <label class="radioLabel">
+        <input type="radio" value="mexican" name="category" required oninvalid="alert('You must fill out the form!');">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Mexican</p>
+            </div>
+    </label>
+    <label class="radioLabel">
+        <input type="radio" value="mediterranean" name="category">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Mediterranean</p>
+            </div>
+    </label>
+
+    <label class="radioLabel">
+        <input type="radio" value="sushi" name="category">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Sushi</p>
+            </div>
+    </label>
+
+    <label class="radioLabel">
+        <input type="radio" value="pizza" name="category">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Pizza</p>
+            </div>
+    </label>
+
+    <label class="radioLabel">
+        <input type="radio" value="korean" name="category">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Korean</p>
+            </div>
+    </label>
+
+    <label class="radioLabel">
+        <input type="radio" value="coffee" name="category">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Coffee</p>
+            </div>
+    </label>
+
+    <label class="radioLabel">
+        <input type="radio" value="burgers" name="category">
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">Burger</p>
+            </div>
+    </label>
+
+    <label class="radioLabel">
+        <input type="radio" value="food" name="category" checked>
+        <div class="radioButtons categoryButtons">
+            <p class="radioInputText">None</p>
+            </div>
+    </label>
+</section>
+
+
+</section>
+    <br>
+    <input class="button" type="submit" value="Submit">
+</form>
+</section>
+
+</body>
