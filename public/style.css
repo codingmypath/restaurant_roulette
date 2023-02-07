@@ -18,11 +18,11 @@ body {
 }
 .restImg {
     width: 390px;
-    height: 390px;
     margin-bottom: 10px;
     border-radius: 5px;
     margin: auto;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -123,6 +123,9 @@ input:checked + .radioButtons {
     width: 120px;
 }
 
+form {
+    height: 625px;
+}
 .randomButtons {
     cursor: pointer;
     background: #A41629;
@@ -194,6 +197,7 @@ input:checked + .randomButtons {
 
 .resultButtons {
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 footer {
