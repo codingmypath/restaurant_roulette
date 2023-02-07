@@ -1,6 +1,7 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
+const fetch = require('node-fetch');
 const yelp = require('yelp-fusion');
 const ejs = require('ejs');
 
