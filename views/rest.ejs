@@ -66,8 +66,10 @@
         <h4 class="restaurantNumber"><%= restaurant.display_phone %></h4>
         <img class="restImg" src="<%= restaurant.image_url %>">
         <br>
-        <button onClick="window.location.reload();">Pick Again</button>
-        <button><a class="startOver" href="/">Start Over</a></button>
+        <section class="resultButtons">
+            <button onClick="window.location.reload();">Pick Again</button>
+            <button><a class="startOver" href="/">Start Over</a></button>
+        </section>
     
     </section>
 </body>
