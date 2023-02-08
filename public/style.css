@@ -190,6 +190,15 @@ input:checked + .randomButtons {
     margin-bottom: 10px;
 }
 
+.url {
+    color:#08496e;
+    font-size: 17px;
+}
+
+.url:hover {
+    color:#FF7039;
+}
+
 .startOver {
     color: white;
     text-decoration: none;

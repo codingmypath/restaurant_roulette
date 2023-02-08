@@ -53,7 +53,7 @@ app.get('/selection', (req, res) => {
       }
     };
     
-    fetch(`https://api.yelp.com/v3/businesses/search?location=${cityInput}&categories=${category}&price=${price}&sort_by=best_match&limit=50`, options)
+    fetch(`https://api.yelp.com/v3/businesses/search?location=${cityInput}&categories=${category}&price=${price}&sort_by=best_match&limit=50&offset=200`, options)
       .then(response => response.json())
       .then(response => {
         num = Math.floor(Math.random() * (Object.keys(response.businesses).length));
