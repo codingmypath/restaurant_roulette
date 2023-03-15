@@ -1,5 +1,5 @@
 # Restaurant Roulette App
-This app helps you pick a restaurant to eat. It uses the Yelp Rest API to get choices based on your preferences and randomly selects one.
+This app helps you pick a restaurant to eat when you are having trouble making a choice. It uses the Yelp Rest API to get choices based on your preferences and randomly selects one.
 
 **Link to project:** https://restaurantroulette.onrender.com//
 
@@ -18,7 +18,7 @@ I learned that the Yelp API does not provide the CORS headers necessary to use c
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Animo:** 
+**Animo:** https://github.com/codingmypath/mvc-animo.git
 
-**Peanut Gallery:** 
+**Peanut Gallery:** https://github.com/codingmypath/peanut-gallery.git
 
