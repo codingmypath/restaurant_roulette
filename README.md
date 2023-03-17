@@ -15,8 +15,8 @@ It runs on Node.js and Express in the backend and EJS to render the page. A user
 
 I learned that the Yelp API does not provide the CORS headers necessary to use clientside JavaScript to directly make requests to the API. Also, the API doesn't allow more than 50 per request, but the API can return up to 1,000 results. You need to use the offset parameter to get the next page of results or the next 50 if you are using 50 as your limit.
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+## Other Projects:
+Take a look at these other projects that I have in my own portfolio:
 
 **Animo:** https://github.com/codingmypath/mvc-animo.git
 
